@@ -9,11 +9,6 @@ module.exports = {
         "jest",
         "react-hooks"
     ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": "./tsconfig.json",
-        "tsconfigRootDir": "."
-    },
     "settings": {
         "import/resolver": {
             "typescript": {}
@@ -49,6 +44,7 @@ module.exports = {
                 "allowTernary": true
             }
         ],
+        "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-unused-expressions": [
             "error",
             {
