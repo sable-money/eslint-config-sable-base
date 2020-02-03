@@ -12,46 +12,5 @@
         "noEmit": true,
         "strict": true,
         "target": "esnext",
-        "resolveJsonModule": true,
-        "baseUrl": "src",
-        "paths": {
-            "components/*": [
-                "components/*"
-            ],
-            "utils/*": [
-                "utils/*"
-            ],
-            "queries/*": [
-                "graphql/queries/*"
-            ],
-            "mutations/*": [
-                "graphql/mutations/*"
-            ],
-            "constants/*": [
-                "constants/*"
-            ],
-            "typedefs/*": [
-                "typedefs/*"
-            ],
-            "actions/*": [
-                "redux/actions/*"
-            ],
-            "reducers/*": [
-                "redux/reducers/*"
-            ],
-            "hooks/*": [
-                "hooks/*"
-            ],
-            "services/*": [
-                "services/*"
-            ]
-        }
-    },
-    "typeRoots": ["./typings", "node_modules/@types"],
-    "exclude": [
-        "node_modules",
-        "babel.config.js",
-        "metro.config.js",
-        "jest.config.js"
-    ]
+        "resolveJsonModule": true
 }
