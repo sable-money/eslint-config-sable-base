@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-sable-base",
+  "version": "1.0.0",
+  "description": "Package that has all basic eslint rules for sable ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sable-money/base-es-lint.git"
+  },
+  "author": "Sable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sable-money/base-es-lint/issues"
+  },
+  "homepage": "https://github.com/sable-money/base-es-lint#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier-eslint": "^9.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+  }
+}
