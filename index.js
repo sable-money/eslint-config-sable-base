@@ -16,9 +16,10 @@ module.exports = {
     },
     "extends": [
         "airbnb-typescript",
-        "prettier",
+        "plugin:prettier/recommended",
         "prettier/@typescript-eslint",
-        "prettier/react"
+        "prettier/react",
+
     ],
     "rules": {
         "eslint-comments/no-unlimited-disable": "off",
