@@ -69,6 +69,11 @@ module.exports = {
                 ]
             }
         ],
-        "react-hooks/exhaustive-deps": "off"
+        "react-hooks/exhaustive-deps": "off",
+        "no-shadow": "off",
+        "react/require-default-props": "off",
+        "react/jsx-curly-brace-presence": "off",
+        "consistent-return": "off",
+        "no-redeclare": "off"
     }
 }
