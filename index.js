@@ -69,6 +69,7 @@ module.exports = {
                 ]
             }
         ],
-        "react-hooks/exhaustive-deps": "off"
+        "react-hooks/exhaustive-deps": "off",
+        "react/no-array-index-key": "warn"
     }
 }
