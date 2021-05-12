@@ -28,7 +28,6 @@ module.exports = {
         "import/no-namespace": "off",
         "import/prefer-default-export": "off",
         "import/order": "error",
-        "import/no-cycle": "off",
         "import/no-extraneous-dependencies": [
             "error",
             {
